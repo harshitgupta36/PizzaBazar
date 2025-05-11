@@ -1,8 +1,8 @@
-# 🍕 Pizzaholic
+# 🍕 PizzaBazar
 
-**Pizzaholic** is a dynamic web-based pizza ordering application built using PHP, MySQL, Bootstrap, JavaScript, and HTML. It allows customers to browse pizzas, add them to a cart, and place orders online.
+**PizzaBazar** is a dynamic web-based pizza ordering application built using PHP, MySQL, Bootstrap, JavaScript, and HTML. It allows customers to browse pizzas, add them to a cart, and place orders online.
 
-## 💠 Tech Stack
+## 🔠 Tech Stack
 
 * **Backend**: PHP
 * **Database**: MySQL
@@ -20,7 +20,7 @@
 ## 📁 Project Structure
 
 ```
-Pizzaholic/
+PizzaBazar/
 ├── index.html
 ├── css/
 │   └── mystyle.css
@@ -74,13 +74,13 @@ Pizzaholic/
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/harshitgupta36/Pizzaholic.git
+   git clone https://github.com/harshitgupta36/PizzaBazar.git
    ```
 
 2. **Import the database:**
 
    * Open `phpMyAdmin` or your MySQL client.
-   * Create a new database, e.g., `pizzaholic`.
+   * Create a new database, e.g., `pizzabazar`.
    * Import the `more.sql` file located in the `database/` directory.
 
 3. **Configure DB connection:**
@@ -91,13 +91,13 @@ Pizzaholic/
      $host = "localhost";
      $user = "root";
      $pass = "";
-     $db   = "pizzaholic";
+     $db   = "pizzabazar";
      ```
 
 4. **Start the server:**
 
    * If using XAMPP/MAMP, place the project in the `htdocs` folder.
-   * Open browser: `http://localhost/Pizzaholic`
+   * Open browser: `http://localhost/PizzaBazar`
 
 ## ✨ Credits
 
